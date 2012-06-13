@@ -1,6 +1,6 @@
 #import "Selection.h"
 #import "RenderingState.h"
-
+#import <CoreGraphics/CoreGraphics.h>
 
 @implementation Selection
 

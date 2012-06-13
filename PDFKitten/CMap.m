@@ -1,4 +1,5 @@
 #import "CMap.h"
+#import <CoreGraphics/CoreGraphics.h>
 
 static NSSet *sharedOperators = nil;
 static NSCharacterSet *sharedTagSet = nil;

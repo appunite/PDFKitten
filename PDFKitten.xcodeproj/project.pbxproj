@@ -59,6 +59,49 @@
 		2CE7BCE713897245009784B9 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCE613897245009784B9 /* Scanner.m */; };
 		2CE7BCEB1389725D009784B9 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEA1389725D009784B9 /* RenderingState.m */; };
 		2CE7BCEF13897294009784B9 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEE13897294009784B9 /* Selection.m */; };
+		AE608D6E1588ABF80026F4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E15AD13589B0B004096C7 /* Foundation.framework */; };
+		AE608D821588AC5A0026F4A9 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCE513897245009784B9 /* Scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D831588AC5D0026F4A9 /* CMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCC013897135009784B9 /* CMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D841588AC600026F4A9 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCC81389713D009784B9 /* Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D851588AC620026F4A9 /* FontCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCCA1389713D009784B9 /* FontCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D861588AC660026F4A9 /* FontDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCCC1389713D009784B9 /* FontDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D871588AC690026F4A9 /* FontFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C06404114C782DE00A9B33F /* FontFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D891588AC740026F4A9 /* RenderingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCE91389725D009784B9 /* RenderingState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D8A1588AC760026F4A9 /* RenderingStateStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C265924154D9C0E00E11745 /* RenderingStateStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D8B1588AC780026F4A9 /* StringDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC3F63138972E5006CC6FB /* StringDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D8C1588AC7B0026F4A9 /* Selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCED13897293009784B9 /* Selection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608D921588AD2C0026F4A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E15AB13589B0B004096C7 /* UIKit.framework */; };
+		AE608D931588AD400026F4A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E15AF13589B0B004096C7 /* CoreGraphics.framework */; };
+		AE608D941588AD500026F4A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C85558F137B336C00D58482 /* QuartzCore.framework */; };
+		AE608D951588AD580026F4A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C38D8E613EF370700718B0D /* Security.framework */; };
+		AE608E361588B85E0026F4A9 /* Scanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCE613897245009784B9 /* Scanner.m */; };
+		AE608E371588B8670026F4A9 /* CMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCC113897135009784B9 /* CMap.m */; };
+		AE608E381588B86A0026F4A9 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCC91389713D009784B9 /* Font.m */; };
+		AE608E391588B8790026F4A9 /* FontCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCCB1389713D009784B9 /* FontCollection.m */; };
+		AE608E3A1588B8900026F4A9 /* FontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCCD1389713D009784B9 /* FontDescriptor.m */; };
+		AE608E3B1588B89A0026F4A9 /* FontFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C06404214C782DF00A9B33F /* FontFile.m */; };
+		AE608E3C1588B8A20026F4A9 /* CompositeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCC313897135009784B9 /* CompositeFont.m */; };
+		AE608E3D1588B8A50026F4A9 /* CIDType0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCBD13897135009784B9 /* CIDType0Font.m */; };
+		AE608E3E1588B8A80026F4A9 /* CIDType2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCBF13897135009784B9 /* CIDType2Font.m */; };
+		AE608E3F1588B8AD0026F4A9 /* Type0Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCDA13897159009784B9 /* Type0Font.m */; };
+		AE608E401588B8B30026F4A9 /* SimpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCD51389714F009784B9 /* SimpleFont.m */; };
+		AE608E411588B8B60026F4A9 /* TrueTypeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCD813897159009784B9 /* TrueTypeFont.m */; };
+		AE608E421588B8B80026F4A9 /* Type1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCDC13897159009784B9 /* Type1Font.m */; };
+		AE608E431588B8BA0026F4A9 /* MMType1Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCD213897142009784B9 /* MMType1Font.m */; };
+		AE608E451588B8C10026F4A9 /* Type3Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCDE13897159009784B9 /* Type3Font.m */; };
+		AE608E461588B8CF0026F4A9 /* RenderingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEA1389725D009784B9 /* RenderingState.m */; };
+		AE608E471588B8D00026F4A9 /* RenderingStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C265926154D9C3900E11745 /* RenderingStateStack.m */; };
+		AE608E481588B8F00026F4A9 /* StringDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC3F64138972E5006CC6FB /* StringDetector.m */; };
+		AE608E491588B8F60026F4A9 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7BCEE13897294009784B9 /* Selection.m */; };
+		AE608E4A1588B8FF0026F4A9 /* SimpleFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCD41389714F009784B9 /* SimpleFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E4B1588B9010026F4A9 /* TrueTypeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCD713897159009784B9 /* TrueTypeFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E4C1588B9040026F4A9 /* Type1Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCDB13897159009784B9 /* Type1Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E4D1588B9150026F4A9 /* Type3Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCDD13897159009784B9 /* Type3Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E4E1588B93A0026F4A9 /* MMType1Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCD113897142009784B9 /* MMType1Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E4F1588B9440026F4A9 /* CompositeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCC213897135009784B9 /* CompositeFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E501588B9460026F4A9 /* CIDType0Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCBC13897135009784B9 /* CIDType0Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E511588B9490026F4A9 /* CIDType2Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCBE13897135009784B9 /* CIDType2Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE608E521588B94A0026F4A9 /* Type0Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7BCD913897159009784B9 /* Type0Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +193,10 @@
 		2CE7BCEA1389725D009784B9 /* RenderingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RenderingState.m; path = PDFKitten/RenderingState.m; sourceTree = SOURCE_ROOT; };
 		2CE7BCED13897293009784B9 /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Selection.h; path = PDFKitten/Selection.h; sourceTree = SOURCE_ROOT; };
 		2CE7BCEE13897294009784B9 /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Selection.m; path = PDFKitten/Selection.m; sourceTree = SOURCE_ROOT; };
+		AE608D6D1588ABF80026F4A9 /* libPDFKittenLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPDFKittenLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE608D711588ABF80026F4A9 /* PDFKittenLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFKittenLib-Prefix.pch"; sourceTree = "<group>"; };
+		AE608D721588ABF80026F4A9 /* PDFKittenLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFKittenLib.h; sourceTree = "<group>"; };
+		AE608D731588ABF80026F4A9 /* PDFKittenLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFKittenLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +224,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE608D6A1588ABF80026F4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE608D951588AD580026F4A9 /* Security.framework in Frameworks */,
+				AE608D941588AD500026F4A9 /* QuartzCore.framework in Frameworks */,
+				AE608D931588AD400026F4A9 /* CoreGraphics.framework in Frameworks */,
+				AE608D921588AD2C0026F4A9 /* UIKit.framework in Frameworks */,
+				AE608D6E1588ABF80026F4A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -187,6 +246,7 @@
 				2CA0FC9E13EEB1910028DCCD /* Other Sources */,
 				2CA0FC9A13EEB1430028DCCD /* Resources */,
 				2C754CA114B3A1D700105B5E /* KittenTest */,
+				AE608D6F1588ABF80026F4A9 /* PDFKittenLib */,
 				2C0E15AA13589B0B004096C7 /* Frameworks */,
 				2C0E15A813589B0B004096C7 /* Products */,
 			);
@@ -197,6 +257,7 @@
 			children = (
 				2CE7BC491389674B009784B9 /* PDFKitten.app */,
 				2C754C9C14B3A1D700105B5E /* KittenTest.octest */,
+				AE608D6D1588ABF80026F4A9 /* libPDFKittenLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,8 +378,8 @@
 		2CDC3F61138972D4006CC6FB /* StringDetector */ = {
 			isa = PBXGroup;
 			children = (
-				2CDC3F63138972E5006CC6FB /* StringDetector.h */,
 				2CDC3F64138972E5006CC6FB /* StringDetector.m */,
+				2CDC3F63138972E5006CC6FB /* StringDetector.h */,
 			);
 			name = StringDetector;
 			sourceTree = "<group>";
@@ -343,8 +404,8 @@
 		2CDC3F6713897369006CC6FB /* Composite Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				2CE7BCC213897135009784B9 /* CompositeFont.h */,
 				2CE7BCC313897135009784B9 /* CompositeFont.m */,
+				2CE7BCC213897135009784B9 /* CompositeFont.h */,
 				2CE7BCBC13897135009784B9 /* CIDType0Font.h */,
 				2CE7BCBD13897135009784B9 /* CIDType0Font.m */,
 				2CE7BCBE13897135009784B9 /* CIDType2Font.h */,
@@ -360,12 +421,12 @@
 			children = (
 				2CE7BCC013897135009784B9 /* CMap.h */,
 				2CE7BCC113897135009784B9 /* CMap.m */,
-				2CE7BCC81389713D009784B9 /* Font.h */,
 				2CE7BCC91389713D009784B9 /* Font.m */,
+				2CE7BCC81389713D009784B9 /* Font.h */,
 				2CE7BCCA1389713D009784B9 /* FontCollection.h */,
 				2CE7BCCB1389713D009784B9 /* FontCollection.m */,
-				2CE7BCCC1389713D009784B9 /* FontDescriptor.h */,
 				2CE7BCCD1389713D009784B9 /* FontDescriptor.m */,
+				2CE7BCCC1389713D009784B9 /* FontDescriptor.h */,
 				2CE7BCE31389715F009784B9 /* Subtypes */,
 				2C06404114C782DE00A9B33F /* FontFile.h */,
 				2C06404214C782DF00A9B33F /* FontFile.m */,
@@ -411,7 +472,54 @@
 			name = Selection;
 			sourceTree = "<group>";
 		};
+		AE608D6F1588ABF80026F4A9 /* PDFKittenLib */ = {
+			isa = PBXGroup;
+			children = (
+				AE608D721588ABF80026F4A9 /* PDFKittenLib.h */,
+				AE608D731588ABF80026F4A9 /* PDFKittenLib.m */,
+				AE608D701588ABF80026F4A9 /* Supporting Files */,
+			);
+			path = PDFKittenLib;
+			sourceTree = "<group>";
+		};
+		AE608D701588ABF80026F4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE608D711588ABF80026F4A9 /* PDFKittenLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE608D6B1588ABF80026F4A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE608D831588AC5D0026F4A9 /* CMap.h in Headers */,
+				AE608D841588AC600026F4A9 /* Font.h in Headers */,
+				AE608D851588AC620026F4A9 /* FontCollection.h in Headers */,
+				AE608E4D1588B9150026F4A9 /* Type3Font.h in Headers */,
+				AE608E4C1588B9040026F4A9 /* Type1Font.h in Headers */,
+				AE608D861588AC660026F4A9 /* FontDescriptor.h in Headers */,
+				AE608E501588B9460026F4A9 /* CIDType0Font.h in Headers */,
+				AE608E4F1588B9440026F4A9 /* CompositeFont.h in Headers */,
+				AE608E511588B9490026F4A9 /* CIDType2Font.h in Headers */,
+				AE608E521588B94A0026F4A9 /* Type0Font.h in Headers */,
+				AE608E4E1588B93A0026F4A9 /* MMType1Font.h in Headers */,
+				AE608D871588AC690026F4A9 /* FontFile.h in Headers */,
+				AE608D891588AC740026F4A9 /* RenderingState.h in Headers */,
+				AE608E4B1588B9010026F4A9 /* TrueTypeFont.h in Headers */,
+				AE608D8A1588AC760026F4A9 /* RenderingStateStack.h in Headers */,
+				AE608E4A1588B8FF0026F4A9 /* SimpleFont.h in Headers */,
+				AE608D821588AC5A0026F4A9 /* Scanner.h in Headers */,
+				AE608D8C1588AC7B0026F4A9 /* Selection.h in Headers */,
+				AE608D8B1588AC780026F4A9 /* StringDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2C0E15A613589B0B004096C7 /* PDFKitten */ = {
@@ -450,6 +558,24 @@
 			productReference = 2C754C9C14B3A1D700105B5E /* KittenTest.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		AE608D6C1588ABF80026F4A9 /* PDFKittenLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE608D771588ABF80026F4A9 /* Build configuration list for PBXNativeTarget "PDFKittenLib" */;
+			buildPhases = (
+				AE608D691588ABF80026F4A9 /* Sources */,
+				AE608D6A1588ABF80026F4A9 /* Frameworks */,
+				AE608D6B1588ABF80026F4A9 /* Headers */,
+				AE608E341588B3E50026F4A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFKittenLib;
+			productName = PDFKittenLib;
+			productReference = AE608D6D1588ABF80026F4A9 /* libPDFKittenLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -473,6 +599,7 @@
 			targets = (
 				2C0E15A613589B0B004096C7 /* PDFKitten */,
 				2C754C9B14B3A1D700105B5E /* KittenTest */,
+				AE608D6C1588ABF80026F4A9 /* PDFKittenLib */,
 			);
 		};
 /* End PBXProject section */
@@ -521,6 +648,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		AE608E341588B3E50026F4A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh Scripts/CopyHeadersToLegacyBuildDir.command";
+			shellScript = "";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -564,6 +704,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C754CA914B3A1D700105B5E /* KittenTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE608D691588ABF80026F4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE608E361588B85E0026F4A9 /* Scanner.m in Sources */,
+				AE608E3A1588B8900026F4A9 /* FontDescriptor.m in Sources */,
+				AE608E401588B8B30026F4A9 /* SimpleFont.m in Sources */,
+				AE608E3E1588B8A80026F4A9 /* CIDType2Font.m in Sources */,
+				AE608E3D1588B8A50026F4A9 /* CIDType0Font.m in Sources */,
+				AE608E411588B8B60026F4A9 /* TrueTypeFont.m in Sources */,
+				AE608E421588B8B80026F4A9 /* Type1Font.m in Sources */,
+				AE608E481588B8F00026F4A9 /* StringDetector.m in Sources */,
+				AE608E3F1588B8AD0026F4A9 /* Type0Font.m in Sources */,
+				AE608E431588B8BA0026F4A9 /* MMType1Font.m in Sources */,
+				AE608E491588B8F60026F4A9 /* Selection.m in Sources */,
+				AE608E451588B8C10026F4A9 /* Type3Font.m in Sources */,
+				AE608E3C1588B8A20026F4A9 /* CompositeFont.m in Sources */,
+				AE608E461588B8CF0026F4A9 /* RenderingState.m in Sources */,
+				AE608E471588B8D00026F4A9 /* RenderingStateStack.m in Sources */,
+				AE608E3B1588B89A0026F4A9 /* FontFile.m in Sources */,
+				AE608E391588B8790026F4A9 /* FontCollection.m in Sources */,
+				AE608E371588B8670026F4A9 /* CMap.m in Sources */,
+				AE608E381588B86A0026F4A9 /* Font.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +807,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -651,8 +818,9 @@
 				GCC_PREFIX_HEADER = "PDFKitten/PDFKitten-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "PDFKitten/PDFKitten-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = PDFKitten;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -661,6 +829,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -670,8 +839,9 @@
 				GCC_PREFIX_HEADER = "PDFKitten/PDFKitten-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "PDFKitten/PDFKitten-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = PDFKitten;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -729,6 +899,50 @@
 			};
 			name = Release;
 		};
+		AE608D751588ABF80026F4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/PDFKittenLib.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFKittenLib/PDFKittenLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/PDFKitten/PDFKitten;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE608D761588ABF80026F4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/PDFKittenLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFKittenLib/PDFKittenLib-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/PDFKitten/PDFKitten;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -755,6 +969,15 @@
 			buildConfigurations = (
 				2C754CAC14B3A1D700105B5E /* Debug */,
 				2C754CAD14B3A1D700105B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE608D771588ABF80026F4A9 /* Build configuration list for PBXNativeTarget "PDFKittenLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE608D751588ABF80026F4A9 /* Debug */,
+				AE608D761588ABF80026F4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
