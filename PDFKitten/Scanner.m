@@ -256,7 +256,7 @@ void didScanSpace(float value, Scanner *scanner)
 /* Called any time the scanner scans a string */
 void didScanString(CGPDFStringRef pdfString, Scanner *scanner)
 {
-	NSString *string = [[scanner stringDetector] appendPDFString:pdfString withFont:[scanner currentFont]];
+   	NSString *string = [[scanner stringDetector] appendPDFString:pdfString withFont:[scanner currentFont]];
 	[[scanner content] appendString:string];
 }
 
@@ -265,7 +265,8 @@ void Tj(CGPDFScannerRef scanner, void *info)
 {
 	CGPDFStringRef pdfString = nil;
 	if (!CGPDFScannerPopString(scanner, &pdfString)) return;
-	didScanString(pdfString, info);
+        didScanString(pdfString, info);
+    
 }
 
 /* Equivalent to operator sequence [T*, Tj] */
