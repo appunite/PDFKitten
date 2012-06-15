@@ -35,6 +35,7 @@
 	// The string being compared
 	NSMutableString *effectiveText = [NSMutableString string];
 	
+    if (unicodeString) {
 	[unicodeContent appendString:unicodeString];
 	
 	for (int i = 0; i < [unicodeString length]; i++)
@@ -95,8 +96,9 @@
 				// and reset in case part of the keyword was already matched.
 				[self didScanCharacter:[cidString characterAtIndex:i]];
 			}
-		}
-	}
+            }
+        }
+    }
 	return effectiveText;
 }
 
