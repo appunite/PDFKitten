@@ -6,7 +6,7 @@
 
 IFS=$'\n'
 if [ -d "${TARGET_BUILD_DIR}/include/PDFKitten" ]; then
-    rsync -av --delete "${TARGET_BUILD_DIR}/include/" "${SOURCE_ROOT}/Build"
+    rsync -av --delete "${TARGET_BUILD_DIR}/include/PDFKitten/" "${SOURCE_ROOT}/Build"
 else
     echo "Target Build Directory '${TARGET_BUILD_DIR}' do not exist, skipping..."
 fi
